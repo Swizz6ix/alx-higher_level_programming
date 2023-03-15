@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/pythoni3
 
 def print_matrix_integer(matrix=[[]]):
     """Print a matrix of integers."""
