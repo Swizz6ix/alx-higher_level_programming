@@ -1,4 +1,5 @@
 #!/usr/bin/node
+
 const request = require('request');
 const url = 'https://swapi-api.alx-tools.com/api/films/' + process.argv[2];
 request(url, function (error, response, body) {
@@ -7,6 +8,7 @@ request(url, function (error, response, body) {
     printCharacters(characters, 0);
   }
 });
+
 
 function printCharacters (characters, index) {
   request(characters[index], function (error, response, body) {
